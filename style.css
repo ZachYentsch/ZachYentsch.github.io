@@ -1,0 +1,15 @@
+.scrolltoo:hover{
+    /* LIKE THIS ONE ALOT */
+    /* color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff; */
+    /* -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); */
+    /* THIS ONE COOL TOO */
+    border: 3px #59fff7;
+    color: #59fff7;
+    background: rgba(248, 228, 164, 0.342);
+    cursor: pointer;
+    user-select: none;
+}
