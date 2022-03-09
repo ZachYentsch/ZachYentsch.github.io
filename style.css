@@ -5,7 +5,7 @@ h1{
 .scrolltoo{
     background: #212529;
     border: 3px #212529;
-    color: rgba(230, 191, 66, 0.452);
+    color: #e6bf4273;
 }
 
 .scrolltoo:hover{
@@ -17,25 +17,26 @@ h1{
     -ms-transform: scale(1.2);
     transform: scale(1.2); */
     /* THIS ONE COOL TOO */
-    border: 3px rgba(230, 191, 66, 0.452);
+    border: 3px #e6bf4273;
     color: #f8f9fa;
-    background: rgba(230, 191, 66, 0.452);
+    background: #e6bf4273;
     cursor: pointer;
     user-select: none;
 }
 
 .aboutMe{
-    background: rgba(230, 191, 66, 0.452);
+    background: #e6bf4273;
+    height:90vh;
 }
 
 .cMe{
-    background: rgba(230, 191, 66, 0.452);
+    background: #e6bf4273;
     color: #212529;
     user-select: none;
 }
 .cMe:hover{
     background: #212529;
-    color: rgba(230, 191, 66, 0.452);
+    color: #e6bf4273;
     cursor: pointer;
     user-select: none;
 }
@@ -46,7 +47,7 @@ a{
 }
 
 a:hover{
-    color: rgba(230, 191, 66, 0.452);
+    color: #e6bf4273;
     background: #212529;
     cursor: pointer;
     user-select: none;
@@ -59,4 +60,47 @@ a:hover{
     padding:10px;
     background:#212529;
     margin-bottom:30px;
+}
+
+.abtMe{
+    color: #e6bf4273;
+    user-select: none;
+}
+
+.abtMeT{
+    color: #e6bf4273;
+    user-select: none;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.rowHeight{
+    height: 90vh;
+}
+
+.listItem{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: #212529;
+    line-height: 2.25;
+
+    background: linear-gradient(to left, #212529, #e6bf4273 60%);
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    background-repeat: repeat-x;
+}
+
+.appImg{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    padding:10px;
+    background:#212529;
+    margin-bottom:30px;
+}
+.appImg:hover{
+    cursor: pointer;
+    filter: grayscale(90%);
 }
